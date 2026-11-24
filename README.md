@@ -126,7 +126,3 @@ To reproduce the pipeline:
 ## Tech stack
 
 Python, Hugging Face Transformers, IndoBERT, Label Studio, seqeval, pandas, Streamlit
-
-## License
-
-`TODO: choose a license for the code`. The dataset follows its original license.

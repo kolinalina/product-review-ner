@@ -225,3 +225,4 @@ __marimo__/
 # cutom
 data/*.csv
 data/*.json
+models/

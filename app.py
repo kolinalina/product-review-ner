@@ -1,10 +1,4 @@
-"""
-app.py - Chatbot perbandingan produk elektronik (tombol + ketik bebas)
 
-Jalankan:   streamlit run app.py
-Butuh:      data/product_aspects.json  (hasil src/build_product_summary.py)
-            query_parser.py            (di folder yang sama dengan app.py)
-"""
 import json
 import math
 from pathlib import Path

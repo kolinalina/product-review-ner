@@ -1,14 +1,4 @@
-"""
-query_parser.py
-Mengubah kalimat bebas ("power bank 200 ribuan yang awet") menjadi:
-  - jenis produk
-  - rentang harga
-  - aspek yang diprioritaskan
 
-Pakai aturan (regex + kata kunci), bukan model, supaya ringan dan stabil.
-Model NER hasil fine-tune dipakai untuk meringkas REVIEW, sedangkan pertanyaan
-user yang pendek lebih aman diurai dengan aturan.
-"""
 import re
 
 TYPE_KEYWORDS = {                      # urutan penting: yang spesifik dulu
